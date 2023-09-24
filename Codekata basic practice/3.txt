@@ -1,0 +1,12 @@
+
+Given a string S consisting of 2 words reverse the order of two words .
+Input Size : |S| <= 10000000
+Sample Testcase :
+INPUT
+hello world
+OUTPUT
+world hello
+
+let a = userInput[0].split(" ");
+ 
+  console.log(a[1], a[0]);

@@ -1,0 +1,19 @@
+Given 3 numbers A,B,C print 'yes' if they can form the sides of a right angled triangle,otherwise 'no'.
+Input Size : A,B,C <= 100000
+Sample Testcase :
+INPUT
+3 4 5
+OUTPUT
+yes
+
+
+let values = userInput[0].split(" ");
+  let a = values[0];
+  let b = values[1];
+  let c = values[2];
+
+  if(+a + +b <= +c || +a + +c <= +b || +b + +c <= +a){
+       console.log("no");
+     }else{
+       console.log("yes");
+  }
